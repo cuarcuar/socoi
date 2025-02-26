@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home SOCOI</title>
 
-    <link rel="icon" href="../public/assets/tab-logo.png" sizes="8x16 16x32" type="image/png">
+    <link rel="icon" href="../public/assets/logo-tab.png" sizes="8x16 16x32" type="image/png">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,17 +14,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="../public/custom.css">
 
 </head>
 
 <body class="custom-body-bg">
 
-    <nav id="navbar-grumak" class="navbar fixed-top d-flex navbar-expand-lg bg-body-tertiary-bg"
+    <nav id="navbar-socoi" class="navbar fixed-top d-flex navbar-expand-lg bg-body-tertiary-bg"
         style="background-color: white;">
         <div class="container-fluid">
             <a class="navbar-brand nav-link ms-2" href="#">
-                <img src="../public/assets/socoi-logo.png" alt="SOCOI logo" width="200" height="50"
+                <img src="../public/assets/logo-socoi.png" alt="SOCOI logo" width="150" height="50"
                     class="d-inline-block align-text-center" />
             </a>
             <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
@@ -50,27 +54,34 @@
         </div>
     </nav>
 
-    <div class="welcome-div" style="padding-top: 100px;">
-        <div class="container-fluid my-1">
-            <div class="row text-end align-items-center gy-5">
-                <div class="col-sm-12 col-md-6">
-                    <img src="../public/assets/quality.png" alt="Quality" class="rounded img-fluid">
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="d-flex flex-column">
-                        <h1>¡Bienvenidos!</h1>
-                        <h3>
-                            Soluciones Confiables de Inspeccion (<strong>SOCOI</strong>) es una empresa sorteadora
-                            <strong>100% Mexicana</strong> con más de 15 años en experiencia
-                            industria automotriz, proporcionando <strong>servicios de control de calidad y
-                                manufactura</strong>.
-                        </h3>
+    <div id="welcome-div">
+        <div class="welcome-div" style="padding-top: 100px;">
+            <div class="container-fluid my-1">
+                <div class="row text-center align-items-center gy-5">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="../public/assets/quality.png" alt="Quality" class="rounded img-fluid"
+                            style="width: 80%;">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="d-flex flex-column align-items-center">
+                            <h1>¡Bienvenidos!</h1>
+                            </br>
+                            <img src="../public/assets/logo-socoi.png" alt="Logo" class="rounded img-fluid"
+                                style="width: 70%;">
+
+                            </br>
+                            <h3>
+                                Soluciones Confiables de Inspeccion (<strong>SOCOI</strong>) es una empresa sorteadora
+                                <strong>100% Mexicana</strong> con más de 15 años en experiencia
+                                industria automotriz, proporcionando <strong>servicios de control de calidad y
+                                    manufactura</strong>.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <div id="services">
         <h1 id="ss-services" class="text-center" style="padding-top: 100px; margin-top: -60px;">
@@ -84,17 +95,20 @@
                             class="card-img-top img-fluid w-100">
                         <div class="card-body d-flex flex-column">
                             <div class="h-100">
-                                <h2 class="card-title text-center">Analisis y definicion de criterio.</h2>
+                                <div class="card-header">
+                                    <h2 class="card-title text-center">Analisis y definicion de criterio.</h2>
+                                </div>
+                                </br>
                                 <ul>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Representacion</strong> de proveedores de autopartes nacionales y
                                         extranjeros en plantas armadoras.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Inspeccion y retrabajo</strong> de componentes sospechosos o no
                                         conformes en instalaciones del cliente.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Implementacion o fabricacion</strong> de plantillas para servicios
                                         especializados.
                                     </li>
@@ -109,25 +123,28 @@
                             class="card-img-top img-fluid w-100">
                         <div class="card-body d-flex flex-column">
                             <div class="h-100">
-                                <h2 class="card-title text-center">Maquinados</h2>
+                                <div class="card-header">
+                                    <h2 class="card-title text-center">Maquinados.</h2>
+                                </div>
+                                </br>
                                 <ul>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Generales</strong> en diferentes tipos de <strong>acero y otros
                                             materiales</strong>.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Adaptaciones en maquinaria</strong> conforme a las <strong>necesidades
                                             requeridas</strong>.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Maquinados de precision</strong> como bujes, pernos, flechas, entre
                                         otros.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Fabricacion</strong> de holding & checking fixtures, gauges pasa no pasa
                                         y más.
                                     </li>
-                                    <li>
+                                    <li class="custom-item-list">
                                         <strong>Rectificado cilindrico interior, exterior y de superficies
                                             planas</strong>.
                                     </li>
@@ -147,29 +164,104 @@
         <div class="container container-carousel">
             <div id="clients-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../public/assets/logo-valeo.png" class="img-fluid img-carousel" alt="Logo valeo">
-                    <img src="../public/assets/logo-daimler.png" class="img-fluid img-carousel" alt="Logo daimler">
-                    <img src="../public/assets/logo-forvia.png" class="img-fluid img-carousel" alt="Logo forvia">
+                    <div class="carousel-item active">
+                        <img src="../public/assets/logo-valeo.png" class="img-fluid img-carousel" alt="Logo valeo">
+                        <img src="../public/assets/logo-daimler.png" class="img-fluid img-carousel"
+                            alt="Logo daimler">
+                        <img src="../public/assets/logo-forvia.png" class="img-fluid img-carousel" alt="Logo forvia">
 
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../public/assets/logo-magna.png" class="img-fluid img-carousel" alt="Logo magna">
-                    <img src="../public/assets/logo-aichi.png" class="img-fluid img-carousel" alt="Logo aichi">
-                    <img src="../public/assets/logo-danfoss.png" class="img-fluid img-carousel" alt="Logo danfoss">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../public/assets/logo-questum.png" class="img-fluid img-carousel" alt="Logo questum">
-                    <img src="../public/assets/logo-stellantis.png" class="img-fluid img-carousel" alt="Logo stellantis">
-                    <img src="../public/assets/logo-acsa.png" class="img-fluid img-carousel" alt="Logo acsa">
-                  </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/assets/logo-magna.png" class="img-fluid img-carousel" alt="Logo magna">
+                        <img src="../public/assets/logo-aichi.png" class="img-fluid img-carousel" alt="Logo aichi">
+                        <img src="../public/assets/logo-danfoss.png" class="img-fluid img-carousel"
+                            alt="Logo danfoss">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/assets/logo-questum.png" class="img-fluid img-carousel"
+                            alt="Logo questum">
+                        <img src="../public/assets/logo-stellantis.png" class="img-fluid img-carousel"
+                            alt="Logo stellantis">
+                        <img src="../public/assets/logo-acsa.png" class="img-fluid img-carousel" alt="Logo acsa">
+                    </div>
                 </div>
-              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1 id="ss-contact" class="text-center" style="padding-top: 100px; margin-top: -60px;">
+            <strong>Información de contacto</strong>
+        </h1>
+        <div class="container my-3 w-55">
+            <div class="card border-info" style="border-radius: 20px;">
+                <div class="card-body align-items-center text-center">
+                    <div class="card-header">
+                        <h2>Nos encontramos a tus ordenes.</h2>
+                    </div>
+                    </br>
+                    <div class="row justify-content-evenly">
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> <i class="fa-solid fa-phone"></i> Telefono de oficina:
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> 7222746746 </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> <i class="fa-brands fa-whatsapp"></i> Numero de
+                                whatsapp: </p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> 7226311592 </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> <i class="fa-regular fa-envelope"></i> Correo
+                                electronico: </p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> marlent.rodriguez@socoi.com.mx </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> <i class="fa-solid fa-location-dot"></i> Direccion de
+                                oficina: </p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <p class="contact-info-pharagraph"> CP. 50110, Toluca Estado de Mexico. Mexico. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container-fluid">
+            <footer class="pt-5 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">SOCOI</a>
+                    </li>
+                    <li class="nav-item"><a href="#ss-services"
+                            class="nav-link px-2 text-body-secondary">Servicios</a></li>
+                    <li class="nav-item"><a href="#ss-clients" class="nav-link px-2 text-body-secondary">Clientes</a>
+                    </li>
+                    <li class="nav-item"><a href="#ss-contact" class="nav-link px-2 text-body-secondary">Contacto</a>
+                    </li>
+                </ul>
+                <p class="text-center text-body-secondary"> 2020 SOCOI © - Derechos reservados.</p>
+            </footer>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="../public/custom.js"></script>
 
 </body>
 
